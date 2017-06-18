@@ -1,5 +1,5 @@
 # course_project_c3
-Getting and Cleaning Data Course Project
+## Getting and Cleaning Data Course Project
 
 This project contains an R script ("run_analysis.R") that performs the analysis of the
 Human Activity Recognition Using Smartphones Dataset according to project requirements.
