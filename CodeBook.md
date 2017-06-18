@@ -37,4 +37,4 @@ merged_subj
 
 **tidy_data** variable contains the final tidy data set with aggregated measurements.
 
-Finally, the **tidy_data** is saved in the **tidyset.csv**.
+Finally, the **tidy_data** is saved in the **tidyset.txt**.

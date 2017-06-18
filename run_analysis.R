@@ -103,6 +103,4 @@ colnames(tidy_data)[1:2] <- c("SubjectId","ActivityId")
 
 # Save final tidy data set into csv file
 #print(tidy_data)
-fwrite(x = tidy_data, file = "tidyset.csv", quote = FALSE)
-
-
+write.table(x = tidy_data, file = "tidyset.txt", row.name = FALSE)

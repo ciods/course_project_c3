@@ -18,4 +18,4 @@ and will perform the following steps:
 4. Appropriately label the data set with descriptive variable names.
 5. Create a tidy data set with the average of each variable for each activity and each subject.
 
-Final tidy data set is saved in a separate file **tidyset.csv**.
+Final tidy data set is saved in a separate file **tidyset.txt**.
