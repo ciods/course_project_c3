@@ -1,6 +1,6 @@
 # Project Code Book
 
-This CodeBook.md describes the variables, the data, and any transformations or work that was performed
+This **CodeBook.md** describes the variables, the data, and any transformations or work that was performed
 to clean up the data.
 
 The script contains one helper function called **file2dt()**. The function is a wrapper for standard **fread()**.
@@ -10,7 +10,7 @@ assigned to the loaded data table.
 Data sets are loaded into the following variables using **file2dt()** function:
 
 ```
-**Variable Name       File Name**
+Variable Name       File Name
 ------------------  ------------------------
 activity_labels     activity_labels.txt
 features            features.txt
@@ -33,7 +33,7 @@ merged_subj
 
 *merged_set* combines *merged_x*,*merged_y*, and *merged_subj* data sets as columns into one data.table.
 
-*merged_activity* variable contains factorized Training labels and is build using activity_labels definition.
+*merged_activity* variable contains factorized Training labels and is build using *activity_labels* definition.
 
 **tidy_data** variable contains the final tidy data set with aggregated measurements.
 

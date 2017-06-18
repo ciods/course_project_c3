@@ -2,7 +2,7 @@
 ## Getting and Cleaning Data Course Project
 
 This project contains an R script (**run_analysis.R**) that performs the analysis of the
-Human Activity Recognition Using Smartphones Dataset according to project requirements.
+*Human Activity Recognition Using Smartphones Dataset* according to project requirements.
 
 To run the script simply source the file from R terminal.
 
