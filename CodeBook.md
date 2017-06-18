@@ -8,21 +8,26 @@ It takes two parameters -- file name to load the data from, and an optional list
 assigned to the loaded data table.
 
 Data sets are loaded into the following variables using "file2dt" function:
-   Variable Name       File Name
-   ------------------  ------------------------
-   activity_labels     activity_labels.txt
-   features            features.txt
-   train_x             train/X_train.txt
-   train_y             train/y_train.txt
-   train_subj          train/subject_train.txt
-   test_x              test/X_test.txt
-   test_y              test/y_test.txt
-   test_subj           test/subject_test.txt
+
+```
+Variable Name       File Name
+\------------------  ------------------------
+- activity_labels     activity_labels.txt
+- features            features.txt
+- train_x             train/X_train.txt
+- train_y             train/y_train.txt
+- train_subj          train/subject_train.txt
+- test_x              test/X_test.txt
+- test_y              test/y_test.txt
+- test_subj           test/subject_test.txt
+```
 
 Subsequently, data sets are merged by rows and saved in:
-   merged_x
-   merged_y
-   merged_subj
+```
+- merged_x
+- merged_y
+- merged_subj
+```
 
 merged_x is filtered to contain just the measurements on the mean and standard deviation for each measurement.
 
