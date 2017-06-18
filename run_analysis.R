@@ -99,7 +99,7 @@ total_cols <- ncol(merged_set)
 # Aggregate measurements by Subject and Activity
 tidy_data <- aggregate(merged_set[, 3:total_cols], list(merged_set$SubjectId, merged_set$ActivityId), mean)
 # Assign proper names
-colnames(tidy_data)[1:2] <- c("SubjectId","ActivityId")
+colnames(tidy_data)[1:2] <- c("SubjectId","Activity")
 
 # Save final tidy data set into csv file
 #print(tidy_data)
