@@ -1,7 +1,7 @@
 # course_project_c3
 ## Getting and Cleaning Data Course Project
 
-This project contains an R script ("run_analysis.R") that performs the analysis of the
+This project contains an R script (**run_analysis.R**) that performs the analysis of the
 Human Activity Recognition Using Smartphones Dataset according to project requirements.
 
 To run the script simply source the file from R terminal.
@@ -18,4 +18,4 @@ and will perform the following steps:
 4. Appropriately label the data set with descriptive variable names.
 5. Create a tidy data set with the average of each variable for each activity and each subject.
 
-Final tidy data set will be saved in a separate file "tidyset.csv".
+Final tidy data set is saved in a separate file **tidyset.csv**.
