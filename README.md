@@ -8,9 +8,10 @@ To run the script simply source the file from R terminal.
 
 > source("run_analysis.R")
 
-The script will download the dataset from the following link:
+For our analysis we will use the dataset downloaded from the following link:
 [Human Activity Recognition Using Smartphones Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-and will perform the following steps:
+
+The script will perform the following tasks:
 
 1. Merge the training and the test sets to create one data set.
 2. Extract only the measurements on the mean and standard deviation for each measurement.

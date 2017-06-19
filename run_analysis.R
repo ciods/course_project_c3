@@ -28,9 +28,12 @@ file2dt <- function(file, col_names = c()) {
 }
 
 # ----------------------
-# download and unzip the data
-download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", destfile = "Dataset.zip")
-unzip("Dataset.zip")
+# As per submission instructions, the data is already supposed to be in the working directory.
+# So, we'll skip downloading and unzipping the dataset file.
+#
+# download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", destfile = "Dataset.zip")
+# unzip("Dataset.zip")
+
 datadir <- paste(getwd(), "/UCI HAR Dataset/", sep = "")
 
 # ----------------------
